@@ -1,38 +1,261 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  top: 0;
+  overflow-x: hidden !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  font-family: "Roboto Condensed", sans-serif !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#dpn-hover {
+  font-size: 120%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#dpn-hover:hover {
+  background-color: #371c63;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #270e4e !important;
+  color: white !important;
+}
+#btn_sign {
+  background-color: #ff1744 !important;
+  transition: all 0.3s;
+}
+#btn_sign:hover {
+  background-color: white !important;
+  color: #ff1744 !important;
+}
+.wtf {
+  font-size: 105%;
+  margin-left: 10px;
+  color: #ffffff !important;
+}
+.navbar.navbar-light .breadcrumb .nav-item .nav-link,
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  font-size: 105%;
+  color: #ffffff !important;
+}
+.navbar.navbar-light .breadcrumb .nav-item .nav-link,
+.navbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgba(0, 0, 0, 0.712);
+  border-radius: 5px;
+  transition: color 0.5s;
+  transition: background-color 0.5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgba(0, 0, 0, 0.712);
+  border-radius: 5px;
+  transition: color 0.5s;
+  transition: background-color 0.5s;
+}
+.card .card-body .card-text {
+  color: #000000be !important;
+}
+
+.btn_cards {
+  font-size: 110% !important ;
+  border-radius: 100px;
+  background-color: #7b1fa2 !important ;
+  transition: all 0.3s;
+}
+.btn_cards:hover {
+  background-color: white !important;
+  color: #7b1fa2 !important ;
+}
+.text_cards {
+  font-size: 120% !important;
+}
+.title_cards {
+  font-size: 180% !important;
+}
+.pagination {
+  margin-top: 4%;
+  margin-right: auto;
+  margin-left: 19.5%;
+}
+button:focus {
+  outline: none !important;
+}
+
+#footer {
+  margin-top: 5% !important;
+}
+#user_pic {
+  border-radius: 50%;
+  width: 18%;
+  padding: 0;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+#user_pic:hover {
+  border-radius: 50%;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
+  width: 23%;
+  transition: all 0.3s ease-in-out;
+  box-shadow: #354b4a 3px;
+}
+#log {
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 0.808);
+  margin-top: 3%;
+  margin-left: 25%;
+  width: 50%;
+  height: 110%;
+  text-align: center;
+  box-shadow: 10px red;
+  border-radius: 20px;
+  padding-bottom: 3%;
+}
+#pic_login {
+  filter: blur(1px);
+  position: absolute;
+  z-index: -10;
+  width: 100%;
+  height: 122vh;
+}
+#btn_login {
+  outline: solid 2px #aa66cc !important;
+  background-color: white !important;
+  color: #aa66cc !important;
+  font-size: 100%;
+}
+.MuiInputBase-input {
+  font-size: 120% !important;
+}
+
+button:focus {
+  outline: none !important;
+}
+#pic {
+  width: 100%;
+  position: relative;
+  z-index: -10;
+  filter: blur(5px);
+}
+.text_main {
+  position: absolute;
+  color: white;
+}
+#icon {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  left: 21%;
+  margin-top: 10%;
+}
+.icon_img {
+  cursor: pointer;
+  float: left;
+  margin-left: 10%;
+}
+#img_header {
+  width: 50%;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+#img_header img {
+  margin-top: -22%;
+  display: block;
+  width: 100%;
+}
+#text_header {
+  margin-right: 7%;
+  margin-top: -45%;
+}
+#text_header h1 {
+  font-size: 350%;
+}
+.inpute {
+  padding: 10px !important;
+}
+.footer_link:hover {
+  color: #9ebfc0;
+  background-color: #354b4a;
+  padding: 5px;
+  transition: all 0.2s;
+  border-radius: 5px;
+}
+#down_arrow {
+  margin-top: -8%;
+}
+#user_pic {
+  border-radius: 50%;
+  width: 18%;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+#user_pic:hover {
+  border-radius: 50%;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
+  width: 23%;
+
+  box-shadow: #354b4a 3px;
+}
+#btn_email {
+  outline: solid 1px #aa66cc !important;
+  background-color: white !important;
+  color: #aa66cc !important;
+  font-size: 100%;
+  transition: all 0.3s;
+}
+
+#search_btn {
+  margin-top: 6%;
+  font-size: 110%;
+  border-radius: 20px;
+  background-color: red !important;
+  transition: all 0.3s;
+}
+#search_btn:hover {
+  color: red;
+  background-color: white !important;
+}
+
+.card_hover {
+  transition: all 0.3s;
+}
+.card_hover:hover {
+  cursor: pointer;
+  transform: scale(1.04, 1.04);
+}
+.mid_card {
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card_row {
+  margin-top: 3%;
+  max-width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#form_resume {
+  margin-top: 5%;
+  border-radius: 10px;
+  background-color: #d4d4d4;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+.btn_input button{
+  opacity: 0 !important;
+}
+#full_color{
+  background-image: linear-gradient(to right,#0F2027,#203A43,#2C5364);
+  z-index: -10;
+  position: absolute;
+  height: 140vh;
+  width: 100vw;
 }
